@@ -119,8 +119,8 @@ body {
   -ms-flex-align: center;
   -webkit-box-align: center;
   align-items: center;
-  background: #ccc;
-  border: 0;
+  background: #fff;
+  border: 1px solid #001952;
   border-radius: 50%;
   cursor: pointer;
   display: -ms-flexbox;
@@ -130,7 +130,7 @@ body {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
-  opacity: 0.7;
+  opacity: 1;
   padding: 0;
   position: absolute;
   top: 50%;
@@ -142,7 +142,7 @@ body {
 }
 
 .splide__arrow svg {
-  fill: #000;
+  fill: #001952;
   height: 1.2em;
   width: 1.2em;
 }
@@ -347,7 +347,7 @@ h2.citrusCarefresh__sectionTitle {
   position: relative;
   background-color: #ddffea40;
 }
-.citrusCarefresh__ProductVideo img {
+.citrusCarefresh__ProductVideo iframe {
   width: 100%;
 }
 .citrusCarefresh__videoText {
