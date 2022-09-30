@@ -546,7 +546,7 @@ Responsive styles
     flex-direction: row;
   }
   .splide__slide {
-    width: 430px !important;
+    width: 500px !important;
   }
   .product-right .splide__arrow {
     display: none;
@@ -602,7 +602,11 @@ Responsive styles
     padding: 10px 20px;
   }
   .citrusCarefresh__Card {
-    width: 205px !important;
+    width: 260px !important;
+  }
+  .citruscarefresh__cardBody p {
+    padding-top: 20px;
+    min-height: 70px;
   }
   .citrusCarefresh__cardBody {
     width: 248px;
