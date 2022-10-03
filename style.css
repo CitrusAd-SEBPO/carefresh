@@ -387,7 +387,7 @@ h2.citrusCarefresh__sectionTitle {
   line-height: 20px;
   color: #000;
   min-height: 59px;
-  padding: 0 10px;
+  padding: 0 10px 0 0;
 }
 .citruscarefresh__cardBody a {
   font-size: 16px;
@@ -395,12 +395,12 @@ h2.citrusCarefresh__sectionTitle {
   text-decoration: underline;
   color: #001952;
 }
-.citrusCarefish__shopAllCTA {
+.citrusCarefresh__shopAllCTA {
   clear: both;
   text-align: center;
   padding-top: 40px;
 }
-.citrusCarefish__shopAllCTA a {
+.citrusCarefresh__shopAllCTA a {
   background-color: #001952;
   color: #fff;
   padding: 18px 44px;
@@ -497,6 +497,14 @@ Responsive styles
     display: none;
   }
   /* banner style */
+  .citrusCarefresh__BannerRow {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* grid-gap: 0; */
+    /* justify-content: space-between; */
+    align-items: center;
+  }
   .citrusCarefresh__txtContainer {
     padding: 10px 50px;
     flex-direction: column;
@@ -504,10 +512,12 @@ Responsive styles
     align-items: flex-start;
   }
   .citrusCarefresh__logo {
-    width: 88px;
+    /* width: 88px; */
     text-align: left;
+    margin-bottom: 20px;
   }
   .citrusCarefresh__bannerText {
+    margin-top: 0px;
     margin-left: 0;
   }
   .citrusCarefresh__bannerText h1 {
@@ -553,7 +563,7 @@ Responsive styles
     display: none;
   }
   .citrusCarefresh__footerCTA button,
-  .citrusCarefish__shopAllCTA a,
+  .citrusCarefresh__shopAllCTA a,
   .citrusCarefresh__BannerCTA a {
     font-size: 16px;
     font-weight: bold;
@@ -602,6 +612,16 @@ Responsive styles
   .citrusCarefresh__txtContainer {
     padding: 10px 20px;
   }
+  .citrusCarefresh__bannerText p {
+    line-height: 18px;
+  }
+  .citrusCarefresh__logo {
+    width: 88px;
+    margin-bottom: 0;
+  }
+  .citrusCarefresh__bannerText {
+    margin: auto;
+  }
   .citrusCarefresh__Card {
     width: 260px !important;
   }
@@ -614,6 +634,20 @@ Responsive styles
   }
 }
 @media all and (max-width: 375px) {
+  .citrusCarefresh__txtContainer {
+    padding: 10px 10px;
+  }
+  .citrusCarefresh__bannerText h1 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .citrusCarefresh__footerCTA button,
+  .citrusCarefresh__shopAllCTA a,
+  .citrusCarefresh__BannerCTA a {
+    font-size: 14px;
+    padding: 10px 0;
+  }
   .citrusCarefresh__Card {
     width: 190px !important;
   }
