@@ -257,6 +257,8 @@ body {
   text-align: center;
 }
 .citrusCarefresh__BannerCTA a {
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 16px;
   background-color: #001952;
   color: #fff;
   padding: 18px 44px;
@@ -390,6 +392,7 @@ h2.citrusCarefresh__sectionTitle {
   padding: 0 10px 0 0;
 }
 .citruscarefresh__cardBody a {
+  font-family: "PetcoCircularTT-Bold", arial !important;
   font-size: 16px;
   font-weight: bold;
   text-decoration: underline;
@@ -401,6 +404,8 @@ h2.citrusCarefresh__sectionTitle {
   padding-top: 40px;
 }
 .citrusCarefresh__shopAllCTA a {
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 16px;
   background-color: #001952;
   color: #fff;
   padding: 18px 44px;
